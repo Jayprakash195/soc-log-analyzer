@@ -1,0 +1,236 @@
+Oct 27 01:05:40 ubuntu-srv CRON[14879]: pam_unix(cron:session): session closed for user root
+Oct 27 02:00:29 ubuntu-srv sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 27 02:10:05 ubuntu-srv sshd[16159]: Failed password for invalid user admin from 203.0.113.77 port 19278 ssh2
+Oct 27 02:10:32 ubuntu-srv sshd[3470]: Failed password for invalid user admin from 203.0.113.77 port 58334 ssh2
+Oct 27 02:11:06 ubuntu-srv sshd[29224]: Failed password for root from 203.0.113.77 port 53978 ssh2
+Oct 27 02:11:43 ubuntu-srv sshd[2657]: Failed password for root from 203.0.113.77 port 7440 ssh2
+Oct 27 02:12:23 ubuntu-srv sshd[28394]: Failed password for invalid user test from 203.0.113.77 port 36451 ssh2
+Oct 27 02:12:43 ubuntu-srv sshd[4056]: Failed password for invalid user test from 203.0.113.77 port 64528 ssh2
+Oct 27 02:13:27 ubuntu-srv sshd[8745]: Failed password for invalid user oracle from 203.0.113.77 port 56644 ssh2
+Oct 27 02:13:52 ubuntu-srv sshd[16913]: Failed password for invalid user oracle from 203.0.113.77 port 27658 ssh2
+Oct 27 02:14:27 ubuntu-srv sshd[29332]: Failed password for invalid user postgres from 203.0.113.77 port 15032 ssh2
+Oct 27 02:14:59 ubuntu-srv sshd[2921]: Failed password for invalid user postgres from 203.0.113.77 port 60166 ssh2
+Oct 27 02:15:24 ubuntu-srv sshd[1070]: Failed password for invalid user user from 203.0.113.77 port 25860 ssh2
+Oct 27 02:15:56 ubuntu-srv sshd[26692]: Failed password for invalid user user from 203.0.113.77 port 18404 ssh2
+Oct 27 02:16:41 ubuntu-srv sshd[10347]: Failed password for invalid user guest from 203.0.113.77 port 30843 ssh2
+Oct 27 02:17:14 ubuntu-srv sshd[24937]: Failed password for invalid user guest from 203.0.113.77 port 46675 ssh2
+Oct 27 02:17:59 ubuntu-srv sshd[22688]: Failed password for invalid user ftpuser from 203.0.113.77 port 37446 ssh2
+Oct 27 02:18:41 ubuntu-srv sshd[6072]: Failed password for invalid user ftpuser from 203.0.113.77 port 32918 ssh2
+Oct 27 02:56:15 ubuntu-srv sshd[13108]: pam_unix(sshd:session): session closed for user devops
+Oct 27 03:14:22 ubuntu-srv sshd[4648]: Failed password for ubuntu from 192.168.56.10 port 42929 ssh2
+Oct 27 03:14:22 ubuntu-srv sshd[25299]: Failed password for ubuntu from 192.168.56.10 port 2663 ssh2
+Oct 27 03:14:23 ubuntu-srv sshd[9024]: Failed password for ubuntu from 192.168.56.10 port 19048 ssh2
+Oct 27 03:14:24 ubuntu-srv sshd[5572]: Failed password for ubuntu from 192.168.56.10 port 15652 ssh2
+Oct 27 03:14:25 ubuntu-srv sshd[4358]: Failed password for ubuntu from 192.168.56.10 port 49289 ssh2
+Oct 27 03:14:25 ubuntu-srv sshd[25270]: Failed password for ubuntu from 192.168.56.10 port 45372 ssh2
+Oct 27 03:14:26 ubuntu-srv sshd[18870]: Failed password for ubuntu from 192.168.56.10 port 59493 ssh2
+Oct 27 03:14:27 ubuntu-srv sshd[20349]: Failed password for ubuntu from 192.168.56.10 port 6721 ssh2
+Oct 27 03:14:28 ubuntu-srv sshd[2041]: Failed password for ubuntu from 192.168.56.10 port 28675 ssh2
+Oct 27 03:14:28 ubuntu-srv sshd[4070]: Failed password for ubuntu from 192.168.56.10 port 2976 ssh2
+Oct 27 03:14:29 ubuntu-srv sshd[8623]: Failed password for ubuntu from 192.168.56.10 port 15352 ssh2
+Oct 27 03:14:30 ubuntu-srv sshd[20726]: Failed password for ubuntu from 192.168.56.10 port 34142 ssh2
+Oct 27 03:14:31 ubuntu-srv sshd[19390]: Failed password for ubuntu from 192.168.56.10 port 2763 ssh2
+Oct 27 03:14:31 ubuntu-srv sshd[24462]: Failed password for ubuntu from 192.168.56.10 port 14055 ssh2
+Oct 27 03:14:32 ubuntu-srv sshd[23981]: Failed password for ubuntu from 192.168.56.10 port 43614 ssh2
+Oct 27 03:14:33 ubuntu-srv sshd[14746]: Failed password for ubuntu from 192.168.56.10 port 36737 ssh2
+Oct 27 03:14:34 ubuntu-srv sshd[15719]: Failed password for ubuntu from 192.168.56.10 port 15470 ssh2
+Oct 27 03:14:34 ubuntu-srv sshd[10115]: Failed password for ubuntu from 192.168.56.10 port 39642 ssh2
+Oct 27 03:14:35 ubuntu-srv sshd[29485]: Failed password for ubuntu from 192.168.56.10 port 54070 ssh2
+Oct 27 03:14:36 ubuntu-srv sshd[25864]: Failed password for ubuntu from 192.168.56.10 port 1449 ssh2
+Oct 27 03:14:37 ubuntu-srv sshd[6231]: Failed password for ubuntu from 192.168.56.10 port 53834 ssh2
+Oct 27 03:14:37 ubuntu-srv sshd[14848]: Failed password for ubuntu from 192.168.56.10 port 46777 ssh2
+Oct 27 03:14:38 ubuntu-srv sshd[10105]: Failed password for ubuntu from 192.168.56.10 port 23322 ssh2
+Oct 27 03:14:39 ubuntu-srv sshd[8055]: Failed password for ubuntu from 192.168.56.10 port 11213 ssh2
+Oct 27 03:14:40 ubuntu-srv sshd[26018]: Failed password for ubuntu from 192.168.56.10 port 63755 ssh2
+Oct 27 03:14:40 ubuntu-srv sshd[4349]: Failed password for ubuntu from 192.168.56.10 port 23083 ssh2
+Oct 27 03:14:41 ubuntu-srv sshd[13449]: Failed password for ubuntu from 192.168.56.10 port 7102 ssh2
+Oct 27 03:14:42 ubuntu-srv sshd[12763]: Failed password for ubuntu from 192.168.56.10 port 7362 ssh2
+Oct 27 03:14:43 ubuntu-srv sshd[12270]: Failed password for ubuntu from 192.168.56.10 port 56565 ssh2
+Oct 27 03:14:43 ubuntu-srv sshd[9667]: Failed password for ubuntu from 192.168.56.10 port 40589 ssh2
+Oct 27 03:14:44 ubuntu-srv sshd[2423]: Failed password for ubuntu from 192.168.56.10 port 53919 ssh2
+Oct 27 03:14:45 ubuntu-srv sshd[16054]: Failed password for ubuntu from 192.168.56.10 port 48847 ssh2
+Oct 27 03:14:46 ubuntu-srv sshd[5090]: Failed password for ubuntu from 192.168.56.10 port 36166 ssh2
+Oct 27 03:14:46 ubuntu-srv sshd[13403]: Failed password for ubuntu from 192.168.56.10 port 64798 ssh2
+Oct 27 03:14:47 ubuntu-srv sshd[19089]: Failed password for ubuntu from 192.168.56.10 port 6188 ssh2
+Oct 27 03:14:48 ubuntu-srv sshd[28177]: Failed password for ubuntu from 192.168.56.10 port 20237 ssh2
+Oct 27 03:14:49 ubuntu-srv sshd[21267]: Failed password for ubuntu from 192.168.56.10 port 42222 ssh2
+Oct 27 03:14:49 ubuntu-srv sshd[29236]: Failed password for ubuntu from 192.168.56.10 port 59052 ssh2
+Oct 27 03:14:50 ubuntu-srv sshd[19918]: Failed password for ubuntu from 192.168.56.10 port 24724 ssh2
+Oct 27 03:14:51 ubuntu-srv sshd[24087]: Failed password for ubuntu from 192.168.56.10 port 13625 ssh2
+Oct 27 03:14:52 ubuntu-srv sshd[2501]: Failed password for ubuntu from 192.168.56.10 port 5582 ssh2
+Oct 27 03:14:52 ubuntu-srv sshd[8467]: Failed password for ubuntu from 192.168.56.10 port 44360 ssh2
+Oct 27 03:14:53 ubuntu-srv sshd[10482]: Failed password for ubuntu from 192.168.56.10 port 51687 ssh2
+Oct 27 03:14:54 ubuntu-srv sshd[29027]: Failed password for ubuntu from 192.168.56.10 port 6253 ssh2
+Oct 27 03:14:55 ubuntu-srv sshd[29392]: Failed password for ubuntu from 192.168.56.10 port 16280 ssh2
+Oct 27 03:14:55 ubuntu-srv sshd[13455]: Failed password for ubuntu from 192.168.56.10 port 7643 ssh2
+Oct 27 03:14:56 ubuntu-srv sshd[15857]: Failed password for ubuntu from 192.168.56.10 port 19241 ssh2
+Oct 27 03:14:57 ubuntu-srv sshd[28332]: Failed password for ubuntu from 192.168.56.10 port 42684 ssh2
+Oct 27 03:14:58 ubuntu-srv sshd[6329]: Failed password for ubuntu from 192.168.56.10 port 24933 ssh2
+Oct 27 03:14:58 ubuntu-srv sshd[12641]: Failed password for ubuntu from 192.168.56.10 port 25284 ssh2
+Oct 27 03:14:59 ubuntu-srv sshd[22960]: Failed password for ubuntu from 192.168.56.10 port 14754 ssh2
+Oct 27 03:15:00 ubuntu-srv sshd[23997]: Failed password for ubuntu from 192.168.56.10 port 18520 ssh2
+Oct 27 03:15:01 ubuntu-srv sshd[23398]: Failed password for ubuntu from 192.168.56.10 port 62408 ssh2
+Oct 27 03:15:01 ubuntu-srv sshd[3339]: Failed password for ubuntu from 192.168.56.10 port 43493 ssh2
+Oct 27 03:15:02 ubuntu-srv sshd[21806]: Failed password for ubuntu from 192.168.56.10 port 40944 ssh2
+Oct 27 03:15:03 ubuntu-srv sshd[18502]: Failed password for ubuntu from 192.168.56.10 port 12239 ssh2
+Oct 27 03:15:04 ubuntu-srv sshd[9021]: Failed password for ubuntu from 192.168.56.10 port 48808 ssh2
+Oct 27 03:15:04 ubuntu-srv sshd[16147]: Failed password for ubuntu from 192.168.56.10 port 11732 ssh2
+Oct 27 03:15:05 ubuntu-srv sshd[9845]: Failed password for ubuntu from 192.168.56.10 port 25891 ssh2
+Oct 27 03:15:06 ubuntu-srv sshd[21971]: Failed password for ubuntu from 192.168.56.10 port 61670 ssh2
+Oct 27 03:15:07 ubuntu-srv sshd[19250]: Failed password for ubuntu from 192.168.56.10 port 46123 ssh2
+Oct 27 03:15:07 ubuntu-srv sshd[23433]: Failed password for ubuntu from 192.168.56.10 port 15416 ssh2
+Oct 27 03:15:08 ubuntu-srv sshd[28618]: Failed password for ubuntu from 192.168.56.10 port 22276 ssh2
+Oct 27 03:15:09 ubuntu-srv sshd[26427]: Failed password for ubuntu from 192.168.56.10 port 51376 ssh2
+Oct 27 03:15:10 ubuntu-srv sshd[8505]: Failed password for ubuntu from 192.168.56.10 port 4689 ssh2
+Oct 27 03:15:10 ubuntu-srv sshd[2051]: Failed password for ubuntu from 192.168.56.10 port 54881 ssh2
+Oct 27 03:15:11 ubuntu-srv sshd[11336]: Failed password for ubuntu from 192.168.56.10 port 53783 ssh2
+Oct 27 03:15:12 ubuntu-srv sshd[9773]: Failed password for ubuntu from 192.168.56.10 port 27314 ssh2
+Oct 27 03:15:13 ubuntu-srv sshd[7913]: Failed password for ubuntu from 192.168.56.10 port 5361 ssh2
+Oct 27 03:15:13 ubuntu-srv sshd[19585]: Failed password for ubuntu from 192.168.56.10 port 60867 ssh2
+Oct 27 03:15:14 ubuntu-srv sshd[24524]: Failed password for ubuntu from 192.168.56.10 port 58457 ssh2
+Oct 27 03:15:15 ubuntu-srv sshd[7967]: Failed password for ubuntu from 192.168.56.10 port 21646 ssh2
+Oct 27 03:15:16 ubuntu-srv sshd[17358]: Failed password for ubuntu from 192.168.56.10 port 43978 ssh2
+Oct 27 03:15:16 ubuntu-srv sshd[29989]: Failed password for ubuntu from 192.168.56.10 port 26952 ssh2
+Oct 27 03:15:17 ubuntu-srv sshd[22064]: Failed password for ubuntu from 192.168.56.10 port 60959 ssh2
+Oct 27 03:15:18 ubuntu-srv sshd[5681]: Failed password for ubuntu from 192.168.56.10 port 31095 ssh2
+Oct 27 03:15:19 ubuntu-srv sshd[5575]: Failed password for ubuntu from 192.168.56.10 port 18383 ssh2
+Oct 27 03:15:19 ubuntu-srv sshd[25411]: Failed password for ubuntu from 192.168.56.10 port 17186 ssh2
+Oct 27 03:15:20 ubuntu-srv sshd[18661]: Failed password for ubuntu from 192.168.56.10 port 37813 ssh2
+Oct 27 03:15:21 ubuntu-srv sshd[25478]: Failed password for ubuntu from 192.168.56.10 port 18243 ssh2
+Oct 27 03:15:22 ubuntu-srv sshd[15038]: Failed password for ubuntu from 192.168.56.10 port 39335 ssh2
+Oct 27 03:17:23 ubuntu-srv sshd[20121]: Failed password for ubuntu from 192.168.56.10 port 59863 ssh2
+Oct 27 03:17:23 ubuntu-srv sshd[12861]: Failed password for ubuntu from 192.168.56.10 port 27199 ssh2
+Oct 27 03:17:24 ubuntu-srv sshd[5532]: Failed password for ubuntu from 192.168.56.10 port 15397 ssh2
+Oct 27 03:17:25 ubuntu-srv sshd[17171]: Failed password for ubuntu from 192.168.56.10 port 34416 ssh2
+Oct 27 03:17:26 ubuntu-srv sshd[25765]: Failed password for ubuntu from 192.168.56.10 port 6981 ssh2
+Oct 27 03:17:26 ubuntu-srv sshd[29216]: Failed password for ubuntu from 192.168.56.10 port 4111 ssh2
+Oct 27 03:17:27 ubuntu-srv sshd[6008]: Failed password for ubuntu from 192.168.56.10 port 8209 ssh2
+Oct 27 03:17:28 ubuntu-srv sshd[6242]: Failed password for ubuntu from 192.168.56.10 port 42144 ssh2
+Oct 27 03:17:29 ubuntu-srv sshd[23298]: Failed password for ubuntu from 192.168.56.10 port 52933 ssh2
+Oct 27 03:17:29 ubuntu-srv sshd[20543]: Failed password for ubuntu from 192.168.56.10 port 28690 ssh2
+Oct 27 03:17:30 ubuntu-srv sshd[13608]: Failed password for ubuntu from 192.168.56.10 port 5187 ssh2
+Oct 27 03:17:31 ubuntu-srv sshd[20526]: Failed password for ubuntu from 192.168.56.10 port 26033 ssh2
+Oct 27 03:17:32 ubuntu-srv sshd[18338]: Failed password for ubuntu from 192.168.56.10 port 31698 ssh2
+Oct 27 03:17:32 ubuntu-srv sshd[19128]: Failed password for ubuntu from 192.168.56.10 port 17500 ssh2
+Oct 27 03:17:33 ubuntu-srv sshd[1376]: Failed password for ubuntu from 192.168.56.10 port 57436 ssh2
+Oct 27 03:17:34 ubuntu-srv sshd[24616]: Failed password for ubuntu from 192.168.56.10 port 45607 ssh2
+Oct 27 03:17:35 ubuntu-srv sshd[23338]: Failed password for ubuntu from 192.168.56.10 port 8531 ssh2
+Oct 27 03:17:35 ubuntu-srv sshd[18595]: Failed password for ubuntu from 192.168.56.10 port 59009 ssh2
+Oct 27 03:17:36 ubuntu-srv sshd[9743]: Failed password for ubuntu from 192.168.56.10 port 50233 ssh2
+Oct 27 03:17:37 ubuntu-srv sshd[22003]: Failed password for ubuntu from 192.168.56.10 port 51394 ssh2
+Oct 27 03:17:38 ubuntu-srv sshd[4655]: Failed password for ubuntu from 192.168.56.10 port 23317 ssh2
+Oct 27 03:17:38 ubuntu-srv sshd[15246]: Failed password for ubuntu from 192.168.56.10 port 20258 ssh2
+Oct 27 03:17:39 ubuntu-srv sshd[15867]: Failed password for ubuntu from 192.168.56.10 port 11389 ssh2
+Oct 27 03:17:40 ubuntu-srv sshd[24661]: Failed password for ubuntu from 192.168.56.10 port 1236 ssh2
+Oct 27 03:17:41 ubuntu-srv sshd[24582]: Failed password for ubuntu from 192.168.56.10 port 58423 ssh2
+Oct 27 03:17:41 ubuntu-srv sshd[17403]: Failed password for ubuntu from 192.168.56.10 port 18285 ssh2
+Oct 27 03:17:42 ubuntu-srv sshd[6854]: Failed password for ubuntu from 192.168.56.10 port 50959 ssh2
+Oct 27 03:17:43 ubuntu-srv sshd[4486]: Failed password for ubuntu from 192.168.56.10 port 34295 ssh2
+Oct 27 03:17:44 ubuntu-srv sshd[21489]: Failed password for ubuntu from 192.168.56.10 port 58074 ssh2
+Oct 27 03:17:44 ubuntu-srv sshd[28579]: Failed password for ubuntu from 192.168.56.10 port 20582 ssh2
+Oct 27 03:17:45 ubuntu-srv sshd[17635]: Failed password for ubuntu from 192.168.56.10 port 42898 ssh2
+Oct 27 03:17:46 ubuntu-srv sshd[7517]: Failed password for ubuntu from 192.168.56.10 port 40933 ssh2
+Oct 27 03:17:47 ubuntu-srv sshd[13252]: Failed password for ubuntu from 192.168.56.10 port 11040 ssh2
+Oct 27 03:17:47 ubuntu-srv sshd[6293]: Failed password for ubuntu from 192.168.56.10 port 50995 ssh2
+Oct 27 03:17:48 ubuntu-srv sshd[26514]: Failed password for ubuntu from 192.168.56.10 port 36372 ssh2
+Oct 27 03:17:49 ubuntu-srv sshd[18378]: Failed password for ubuntu from 192.168.56.10 port 61476 ssh2
+Oct 27 03:17:50 ubuntu-srv sshd[1018]: Failed password for ubuntu from 192.168.56.10 port 61218 ssh2
+Oct 27 03:17:50 ubuntu-srv sshd[11621]: Failed password for ubuntu from 192.168.56.10 port 40276 ssh2
+Oct 27 03:17:51 ubuntu-srv sshd[1638]: Failed password for ubuntu from 192.168.56.10 port 33045 ssh2
+Oct 27 03:17:52 ubuntu-srv sshd[12894]: Failed password for ubuntu from 192.168.56.10 port 8355 ssh2
+Oct 27 03:17:53 ubuntu-srv sshd[28252]: Failed password for ubuntu from 192.168.56.10 port 58611 ssh2
+Oct 27 03:17:53 ubuntu-srv sshd[11076]: Failed password for ubuntu from 192.168.56.10 port 53896 ssh2
+Oct 27 03:17:54 ubuntu-srv sshd[2898]: Failed password for ubuntu from 192.168.56.10 port 16716 ssh2
+Oct 27 03:17:55 ubuntu-srv sshd[29770]: Failed password for ubuntu from 192.168.56.10 port 16809 ssh2
+Oct 27 03:17:56 ubuntu-srv sshd[3580]: Failed password for ubuntu from 192.168.56.10 port 38206 ssh2
+Oct 27 03:17:56 ubuntu-srv sshd[24983]: Failed password for ubuntu from 192.168.56.10 port 6637 ssh2
+Oct 27 03:17:57 ubuntu-srv sshd[27739]: Failed password for ubuntu from 192.168.56.10 port 32873 ssh2
+Oct 27 03:17:58 ubuntu-srv sshd[25923]: Failed password for ubuntu from 192.168.56.10 port 5559 ssh2
+Oct 27 03:17:59 ubuntu-srv sshd[26094]: Failed password for ubuntu from 192.168.56.10 port 35935 ssh2
+Oct 27 03:17:59 ubuntu-srv sshd[5207]: Failed password for ubuntu from 192.168.56.10 port 9265 ssh2
+Oct 27 03:18:00 ubuntu-srv sshd[16574]: Failed password for ubuntu from 192.168.56.10 port 44261 ssh2
+Oct 27 03:18:01 ubuntu-srv sshd[19015]: Failed password for ubuntu from 192.168.56.10 port 63076 ssh2
+Oct 27 03:18:02 ubuntu-srv sshd[9685]: Failed password for ubuntu from 192.168.56.10 port 11845 ssh2
+Oct 27 03:18:02 ubuntu-srv sshd[29587]: Failed password for ubuntu from 192.168.56.10 port 35605 ssh2
+Oct 27 03:18:03 ubuntu-srv sshd[14865]: Failed password for ubuntu from 192.168.56.10 port 40777 ssh2
+Oct 27 03:18:04 ubuntu-srv sshd[7940]: Failed password for ubuntu from 192.168.56.10 port 64224 ssh2
+Oct 27 03:18:05 ubuntu-srv sshd[18671]: Failed password for ubuntu from 192.168.56.10 port 61901 ssh2
+Oct 27 03:18:05 ubuntu-srv sshd[24918]: Failed password for ubuntu from 192.168.56.10 port 50521 ssh2
+Oct 27 03:18:06 ubuntu-srv sshd[7591]: Failed password for ubuntu from 192.168.56.10 port 46235 ssh2
+Oct 27 03:18:07 ubuntu-srv sshd[11214]: Failed password for ubuntu from 192.168.56.10 port 47747 ssh2
+Oct 27 03:18:08 ubuntu-srv sshd[23009]: Failed password for ubuntu from 192.168.56.10 port 27172 ssh2
+Oct 27 03:18:08 ubuntu-srv sshd[13236]: Failed password for ubuntu from 192.168.56.10 port 43614 ssh2
+Oct 27 03:18:09 ubuntu-srv sshd[17959]: Failed password for ubuntu from 192.168.56.10 port 29735 ssh2
+Oct 27 03:18:10 ubuntu-srv sshd[4965]: Failed password for ubuntu from 192.168.56.10 port 30612 ssh2
+Oct 27 03:18:11 ubuntu-srv sshd[8362]: Failed password for ubuntu from 192.168.56.10 port 17270 ssh2
+Oct 27 03:18:11 ubuntu-srv sshd[12078]: Failed password for ubuntu from 192.168.56.10 port 5220 ssh2
+Oct 27 03:18:12 ubuntu-srv sshd[20277]: Failed password for ubuntu from 192.168.56.10 port 2402 ssh2
+Oct 27 03:18:13 ubuntu-srv sshd[8540]: Failed password for ubuntu from 192.168.56.10 port 37325 ssh2
+Oct 27 03:18:14 ubuntu-srv sshd[8216]: Failed password for ubuntu from 192.168.56.10 port 39588 ssh2
+Oct 27 03:18:14 ubuntu-srv sshd[3326]: Failed password for ubuntu from 192.168.56.10 port 1495 ssh2
+Oct 27 03:18:15 ubuntu-srv sshd[21679]: Failed password for ubuntu from 192.168.56.10 port 47413 ssh2
+Oct 27 03:18:16 ubuntu-srv sshd[8501]: Failed password for ubuntu from 192.168.56.10 port 4882 ssh2
+Oct 27 03:18:17 ubuntu-srv sshd[2029]: Failed password for ubuntu from 192.168.56.10 port 5441 ssh2
+Oct 27 03:18:17 ubuntu-srv sshd[11827]: Failed password for ubuntu from 192.168.56.10 port 57361 ssh2
+Oct 27 03:18:18 ubuntu-srv sshd[17847]: Failed password for ubuntu from 192.168.56.10 port 5667 ssh2
+Oct 27 03:18:19 ubuntu-srv sshd[10125]: Failed password for ubuntu from 192.168.56.10 port 16621 ssh2
+Oct 27 03:18:20 ubuntu-srv sshd[16906]: Failed password for ubuntu from 192.168.56.10 port 44866 ssh2
+Oct 27 03:18:20 ubuntu-srv sshd[18669]: Failed password for ubuntu from 192.168.56.10 port 15064 ssh2
+Oct 27 03:18:21 ubuntu-srv sshd[24702]: Failed password for ubuntu from 192.168.56.10 port 9695 ssh2
+Oct 27 03:18:22 ubuntu-srv sshd[29913]: Failed password for ubuntu from 192.168.56.10 port 62333 ssh2
+Oct 27 03:18:23 ubuntu-srv sshd[19881]: Failed password for ubuntu from 192.168.56.10 port 38447 ssh2
+Oct 27 03:20:24 ubuntu-srv sshd[8962]: Failed password for ubuntu from 192.168.56.10 port 32000 ssh2
+Oct 27 03:20:25 ubuntu-srv sshd[16498]: Failed password for ubuntu from 192.168.56.10 port 52444 ssh2
+Oct 27 03:20:26 ubuntu-srv sshd[14338]: Failed password for ubuntu from 192.168.56.10 port 53944 ssh2
+Oct 27 03:20:27 ubuntu-srv sshd[4090]: Failed password for ubuntu from 192.168.56.10 port 13502 ssh2
+Oct 27 03:20:28 ubuntu-srv sshd[22593]: Failed password for ubuntu from 192.168.56.10 port 7376 ssh2
+Oct 27 03:20:29 ubuntu-srv sshd[12609]: Failed password for ubuntu from 192.168.56.10 port 29273 ssh2
+Oct 27 03:20:30 ubuntu-srv sshd[14470]: Failed password for ubuntu from 192.168.56.10 port 28783 ssh2
+Oct 27 03:20:31 ubuntu-srv sshd[29306]: Failed password for ubuntu from 192.168.56.10 port 31630 ssh2
+Oct 27 03:20:32 ubuntu-srv sshd[2775]: Failed password for ubuntu from 192.168.56.10 port 48804 ssh2
+Oct 27 03:20:33 ubuntu-srv sshd[22412]: Failed password for ubuntu from 192.168.56.10 port 45153 ssh2
+Oct 27 03:20:34 ubuntu-srv sshd[22174]: Failed password for ubuntu from 192.168.56.10 port 65522 ssh2
+Oct 27 03:20:35 ubuntu-srv sshd[2986]: Failed password for ubuntu from 192.168.56.10 port 7473 ssh2
+Oct 27 03:20:36 ubuntu-srv sshd[24862]: Failed password for ubuntu from 192.168.56.10 port 27410 ssh2
+Oct 27 03:20:37 ubuntu-srv sshd[27233]: Failed password for ubuntu from 192.168.56.10 port 23260 ssh2
+Oct 27 03:20:38 ubuntu-srv sshd[4580]: Failed password for ubuntu from 192.168.56.10 port 57494 ssh2
+Oct 27 03:20:39 ubuntu-srv sshd[7278]: Failed password for ubuntu from 192.168.56.10 port 17319 ssh2
+Oct 27 03:20:40 ubuntu-srv sshd[18573]: Failed password for ubuntu from 192.168.56.10 port 13489 ssh2
+Oct 27 03:20:41 ubuntu-srv sshd[5593]: Failed password for ubuntu from 192.168.56.10 port 30424 ssh2
+Oct 27 03:21:12 ubuntu-srv sshd[7012]: Accepted password for ubuntu from 192.168.56.10 port 28672 ssh2
+Oct 27 04:40:16 ubuntu-srv sshd[6294]: pam_unix(sshd:session): session closed for user devops
+Oct 27 04:59:22 ubuntu-srv sshd[29864]: pam_unix(sshd:session): session opened for user devops(uid=1001) by (uid=0)
+Oct 27 05:30:10 ubuntu-srv sshd[8133]: Failed password for invalid user admin from 198.51.100.23 port 20469 ssh2
+Oct 27 05:30:14 ubuntu-srv sshd[2916]: Failed password for invalid user pi from 198.51.100.23 port 64509 ssh2
+Oct 27 05:30:18 ubuntu-srv sshd[25108]: Failed password for invalid user support from 198.51.100.23 port 38981 ssh2
+Oct 27 07:59:12 ubuntu-srv sshd[2997]: Failed password for devops from 10.0.0.25 port 36557 ssh2
+Oct 27 07:59:31 ubuntu-srv sshd[11276]: Failed password for devops from 10.0.0.25 port 50043 ssh2
+Oct 27 08:00:04 ubuntu-srv sshd[2643]: Accepted password for devops from 10.0.0.25 port 4770 ssh2
+Oct 27 08:02:00 ubuntu-srv sshd[11929]: pam_unix(sshd:session): session opened for user devops(uid=1001) by (uid=0)
+Oct 27 08:07:56 ubuntu-srv sshd[4507]: pam_unix(sshd:session): session opened for user devops(uid=1001) by (uid=0)
+Oct 27 08:32:31 ubuntu-srv sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 27 08:57:58 ubuntu-srv CRON[28725]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 27 09:10:28 ubuntu-srv systemd-logind[612]: New session 28320 of user devops.
+Oct 27 09:37:30 ubuntu-srv sshd[28941]: Accepted password for devops from 10.0.0.25 port 33978 ssh2
+Oct 27 09:38:13 ubuntu-srv systemd-logind[612]: New session 24514 of user devops.
+Oct 27 10:13:43 ubuntu-srv sshd[21782]: Received disconnect from 10.0.0.25 port 50122:11: disconnected by user
+Oct 27 10:33:10 ubuntu-srv sshd[17640]: Accepted password for devops from 10.0.0.25 port 4751 ssh2
+Oct 27 11:05:54 ubuntu-srv sshd[3245]: Accepted password for devops from 10.0.0.25 port 13202 ssh2
+Oct 27 12:38:04 ubuntu-srv sshd[29240]: Accepted password for devops from 10.0.0.25 port 45274 ssh2
+Oct 27 13:15:25 ubuntu-srv sshd[19667]: Accepted password for devops from 10.0.0.25 port 8880 ssh2
+Oct 27 13:35:00 ubuntu-srv sshd[4665]: Received disconnect from 10.0.0.25 port 50122:11: disconnected by user
+Oct 27 14:15:37 ubuntu-srv sshd[2302]: Accepted password for devops from 10.0.0.25 port 39986 ssh2
+Oct 27 15:39:05 ubuntu-srv sshd[22540]: Accepted password for devops from 10.0.0.25 port 28498 ssh2
+Oct 27 16:37:36 ubuntu-srv sshd[11366]: Accepted password for devops from 10.0.0.25 port 35285 ssh2
+Oct 27 17:13:32 ubuntu-srv CRON[9690]: pam_unix(cron:session): session closed for user root
+Oct 27 17:45:19 ubuntu-srv sshd[21043]: Received disconnect from 10.0.0.25 port 50122:11: disconnected by user
+Oct 27 17:59:16 ubuntu-srv sshd[22945]: Accepted password for devops from 10.0.0.25 port 14410 ssh2
+Oct 27 18:45:20 ubuntu-srv sshd[9703]: Accepted password for devops from 10.0.0.25 port 16666 ssh2
+Oct 27 19:25:08 ubuntu-srv sshd[22151]: Accepted password for devops from 10.0.0.25 port 45043 ssh2
+Oct 27 19:36:06 ubuntu-srv CRON[3400]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 27 20:19:29 ubuntu-srv sshd[25637]: Accepted password for devops from 10.0.0.25 port 21744 ssh2
+Oct 27 20:33:00 ubuntu-srv sudo:   devops : TTY=pts/0 ; PWD=/home/devops ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 27 21:06:56 ubuntu-srv CRON[5400]: pam_unix(cron:session): session closed for user root
+Oct 27 21:52:35 ubuntu-srv CRON[10810]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 27 23:28:35 ubuntu-srv systemd-logind[612]: New session 24123 of user devops.
+Oct 27 23:35:09 ubuntu-srv sshd[9924]: pam_unix(sshd:session): session closed for user devops

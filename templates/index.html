@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Analyze authorized Linux SSH authentication logs for suspicious login activity.">
+  <title>SOC Log Analyzer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+  <script src="{{ url_for('static', filename='js/app.js') }}" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="/"><span class="brand-mark">S</span><span><b>SOC ANALYZER</b><small>Security Operations Toolkit</small></span></a>
+      <div class="side-label">WORKSPACE</div>
+      <a class="nav-link active" href="#overview"><span>▦</span> Overview</a>
+      <a class="nav-link" href="#findings"><span>◈</span> Security findings</a>
+      <a class="nav-link" href="#upload"><span>⇧</span> Analyze a log</a>
+      <div class="sidebar-note"><span class="status-dot"></span><span><b>Local analysis</b><small>Logs are processed by this server and not sent to reputation services.</small></span></div>
+      <div class="side-footer">SOC LOG ANALYZER <span>•</span> EDUCATIONAL TOOL</div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar"><div><div class="eyebrow">SECURITY OPERATIONS / LOG TRIAGE</div><h1>SSH Log Analyzer</h1><p>Investigate authentication activity and surface suspicious patterns.</p></div><div class="top-actions"><span class="health-pill"><i></i> Analyzer UI ready</span><button id="sampleBtn" class="button secondary">Load sample data</button></div></header>
+      <section id="notice" class="notice hidden" role="status" aria-live="polite"></section>
+      <section id="overview" class="section-block">
+        <div class="section-heading"><div><h2>Analysis overview</h2><p id="datasetLabel">Load the sample dataset or upload an authorized log file.</p></div><span id="sourceBadge" class="badge neutral">NO ANALYSIS</span></div>
+        <div class="metrics-grid">
+          <article class="metric-card"><span class="metric-icon blue">≋</span><span class="metric-label">Parsed events</span><strong id="totalEvents">—</strong><small>Recognized SSH events</small></article>
+          <article class="metric-card"><span class="metric-icon red">↘</span><span class="metric-label">Failed logins</span><strong id="failedLogins">—</strong><small>Authentication failures</small></article>
+          <article class="metric-card"><span class="metric-icon green">✓</span><span class="metric-label">Successful logins</span><strong id="successfulLogins">—</strong><small>Accepted SSH logins</small></article>
+          <article class="metric-card"><span class="metric-icon purple">◎</span><span class="metric-label">Source IPs</span><strong id="uniqueIps">—</strong><small>Unique source addresses</small></article>
+          <article class="metric-card"><span class="metric-icon orange">!</span><span class="metric-label">Findings</span><strong id="findingCount">—</strong><small id="highCount">High severity: —</small></article>
+        </div>
+      </section>
+      <section id="upload" class="section-block">
+        <div class="section-heading"><div><h2>Analyze authentication log</h2><p>Upload a Linux SSH auth.log export to run the existing detection engine.</p></div></div>
+        <form id="uploadForm" class="upload-panel">
+          <input id="logFile" name="file" type="file" accept=".log,.txt,text/plain" hidden>
+          <div id="dropZone" class="drop-zone" tabindex="0" role="button" aria-label="Choose a log file or drag it here"><div class="upload-symbol">↑</div><b>Drop your log file here</b><span>or <button id="browseBtn" class="text-button" type="button">browse files</button></span><small>Supported: .log, .txt · Maximum {{ max_upload_mb }} MB</small><div id="selectedFile" class="selected-file hidden"></div></div>
+          <div class="upload-controls"><label for="yearInput">Year for classic syslog timestamps<input id="yearInput" name="year" type="number" min="1970" max="2200" value="2026"></label><button id="analyzeBtn" class="button primary" type="submit" disabled>Analyze log <span>→</span></button></div>
+        </form>
+      </section>
+      <section class="section-block chart-grid">
+        <article class="panel chart-panel"><div class="panel-heading"><div><h2>Authentication events</h2><p>Failed versus successful login count</p></div></div><div class="chart-wrap"><canvas id="authChart" aria-label="Failed and successful login chart"></canvas><div id="authChartEmpty" class="chart-empty">Run an analysis to display chart data.</div></div></article>
+        <article class="panel chart-panel"><div class="panel-heading"><div><h2>Findings by severity</h2><p>Severity assigned by detection rules</p></div></div><div class="chart-wrap"><canvas id="severityChart" aria-label="Findings by severity chart"></canvas><div id="severityChartEmpty" class="chart-empty">No findings to chart yet.</div></div></article>
+        <article class="panel chart-panel"><div class="panel-heading"><div><h2>Detection categories</h2><p>Number of findings per detection rule</p></div></div><div class="chart-wrap"><canvas id="categoryChart" aria-label="Findings by category chart"></canvas><div id="categoryChartEmpty" class="chart-empty">No findings to chart yet.</div></div></article>
+        <article class="panel chart-panel"><div class="panel-heading"><div><h2>Login activity over time</h2><p>Recognized events grouped by minute</p></div></div><div class="chart-wrap"><canvas id="timelineChart" aria-label="Login activity over time chart"></canvas><div id="timelineChartEmpty" class="chart-empty">Run an analysis to display chart data.</div></div></article>
+      </section>
+      <section id="findings" class="section-block panel findings-panel">
+        <div class="panel-heading findings-heading"><div><h2>Security findings</h2><p>Alerts require analyst validation; they do not prove compromise on their own.</p></div><div class="report-actions"><button id="jsonBtn" class="button small secondary" disabled>JSON</button><button id="csvBtn" class="button small secondary" disabled>CSV</button><button id="htmlBtn" class="button small secondary" disabled>HTML report</button><button id="blocklistBtn" class="button small secondary" disabled>Blocklist</button></div></div>
+        <div class="filters"><label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search IP, username, evidence…" aria-label="Search findings"></label><label class="filter-label">Severity<select id="severityFilter"><option value="all">All severities</option><option>High</option><option>Medium</option><option>Low</option></select></label><label class="filter-label">Detection<select id="typeFilter"><option value="all">All detections</option></select></label><button id="clearFilters" class="text-button" type="button">Clear filters</button></div>
+        <div class="table-wrap"><table><thead><tr><th>Severity</th><th>Detection</th><th>Source IP</th><th>User</th><th>Count</th><th>Evidence</th><th>MITRE ATT&amp;CK</th><th>Time range</th></tr></thead><tbody id="findingsBody"><tr><td colspan="8" class="table-empty">No analysis results yet. Load sample data or upload a log.</td></tr></tbody></table></div>
+        <div class="table-footer"><span id="resultCount">0 findings</span><span>Detection thresholds are configurable in the CLI.</span></div>
+      </section>
+      <footer class="footer">SOC Log Analyzer · Educational project for authorized log analysis · Verify findings before taking action.</footer>
+    </main>
+  </div>
+  <div id="detailModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-card"><button id="closeModal" class="modal-close" aria-label="Close details">×</button><div class="eyebrow">FINDING DETAILS</div><h2 id="modalTitle">Finding details</h2><div id="modalContent"></div></div></div>
+</body></html>
