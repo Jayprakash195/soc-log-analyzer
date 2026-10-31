@@ -212,3 +212,15 @@ Blocklist / iptables command generator (print only, never auto-run), GeoIP count
 ## Legal
 
 Use this tool only on logs you own or are authorized to analyze.
+---
+
+## 📸 Project Screenshots
+
+### 1. SOC Dashboard
+![SOC Dashboard](docs/dashboard.png)
+
+### 2. Security Findings
+![Security Findings](docs/security-findings.png)
+
+### 3. HTML Security Report
+![HTML Report](docs/html-report.png)
